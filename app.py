@@ -4,7 +4,7 @@ from flask_cors import CORS
 from flask_restful import Api, Resource
 
 app = Flask(__name__)
-CORS(app, supports_credentials=True, origins='*')
+CORS(app, supports_credentials=True, origins='https://tristan-chiu0.github.io/CCAE-FE/')
 
 api = Api(app)
 
